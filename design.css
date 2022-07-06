@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Finlandica', sans-serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 25px;
+}
+.header-section {
+    background-image: url('images/donation3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    font-weight: 800
+    
+}
+.header-section div {
+    
+    color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+ a {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    
+ }
+ .donate-section {
+    text-align : center;
+    width: 40%;
+    margin: auto;
+    padding: 60px;
+ }
+ .donate-section  ol {
+    margin: 0px;
+    display: flex;
+    float: left;
+ }
+ .donate-section li {
+    list-style-type: none;
+    padding: 20px 14px;
+    margin-left: 10px;
+ }
+ input {
+    border: none;
+ }
+ .donate-today {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+ }
+ .donate-plan-one {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+ }
+ .donate-plan{
+ 
+    display: flex;
+    float: left;
+    width: 90%;
+ }
+ 
+ .donate-plan img {
+    height: 50px;
+    width : 50px;
+    background-position: left;
+ }
+ .food {
+    background-color: rgba(168, 135, 206, 0.889);
+ }
+ .shelter {
+background-color: aliceblue;
+ }
+ .education {
+    background-color: antiquewhite;
+ }
+ .width {
+   
+   margin-left: 8%;
+   border: 2px solid;
+   
+  
+   border-radius: 5px;
+   height: 200px;
+   width: 320px;
+   padding: 30px 20px;
+ }
+ .container-flex {
+    margin-top:40px;
+    margin-left: 10%;
+    
+    
+    display: flex;
+    float: left;
+    width: 80%;
+ }
+ .half-width {
+    width: 48%;
+    padding-left: 5%;
+ }
+ .half-width img {
+    width: 100%;
+ }
+ .get-my-updates {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: block
+ }
+ .email-input {
+    width: 160px;
+    height: 15px;
+    padding: 10px 15px;
+    margin: 0;
+ }
+
+ .submit-input {
+    background-color: brown;
+    color: white;
+    margin: 0;
+ }
+ form{
+    outline-color: yellow ;
+    outline-style: solid;
+    outline-width: 60px;
+    margin: 60px;
+ }
+ .bottom-margin {
+    margin-bottom: 40px;
+ }
+ footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+ }
+ footer h1 {
+    padding-top: 40px;
+    color: Red;
+    font-style: italic;
+ 
+ }
+ footer p{
+    color: white;
+ }
